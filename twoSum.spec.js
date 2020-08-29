@@ -10,8 +10,9 @@ describe("twoSum", () => {
     expect(twoSum([], 0)).to.be.an("array");
   });
 
-  it("returns an empty array if an empty array is given", () => {
+  it("returns an empty array if an array with less than two elements is provided", () => {
     expect(twoSum([], 0)).to.deep.equal([]);
+    expect(twoSum([2], 0)).to.deep.equal([]);
   });
 
   it("correctly identifies two numbers that sum to the target", () => {
