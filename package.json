@@ -4,7 +4,7 @@
   "description": "",
   "main": "twoSum.js",
   "scripts": {
-    "test": "mocha wrap.spec.js"
+    "test": "mocha wrap.spec.js twoSum.spec.js"
   },
   "keywords": [],
   "author": "",
